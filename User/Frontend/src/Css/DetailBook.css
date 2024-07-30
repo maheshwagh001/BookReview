@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300&family=Secular+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@300&family=Roboto:wght@500&family=Secular+One&display=swap');
+
+body{
+    font-family: "Playwrite BE VLG", cursive;
+}
+.Inclusive-detailbook-page { 
+    width: 1000px;
+    margin: 2rem auto 4rem;
+    position: relative;
+}
+
+@media only screen and (max-width: 1000px) {
+    .Inclusive-detailbook-page {
+        width: 100%;
+        padding: 0 16px;
+    }
+}
+
+.top_detail_wrapper {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.top_detail_wrapper h5 {
+    font-size: 2.4rem;
+    font-weight: bolder;
+    margin-bottom: 1rem;
+    letter-spacing: 0.5px;
+    padding-left: 18px;
+    font-family: 'Londrina Solid', cursive;
+}
+.top_detail_wrapper i {
+    font-size: 2.4rem;
+    font-weight: bolder;
+    margin-bottom: 1rem;
+    letter-spacing: 0.5px;
+    padding-left: 18px;
+}
+
+.book-general-info {
+    width: 70%;
+    height: 65px;
+    /* background-color: #f4f7fd; */
+    display: flex;
+    justify-content:left;
+    padding: 0 18px;
+    position: relative;
+}
+
+.book-general-info ul {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    display: inline-block;
+    align-items:start;
+}
+
+.book-general-info ul li {
+    list-style: none;
+    font-size: large;
+}
+
+.book-general-info ul b {
+    margin: 0 6px;
+    font-weight: normal;
+}
+
+li.book-author-info {
+    display: flex;
+    align-items: center;
+    margin-right: 11px;
+}
+
+
+li.book-author-info span {
+    font-family: 'Mukta', sans-serif;
+    font-weight: bold;
+    
+    margin: 0 6px;
+}
+
+
+
+.Inclusive-detailbook-page .book-content {
+    height: auto;
+    width: 100%;
+    margin-top: 1.8rem;
+    font-family: 'IBM Plex Serif', sans-serif;
+    font-size: 1.2rem;
+    position: relative;
+    line-height: 32px;
+}
+
+.book-banner-img {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.book-banner-img img {
+    width: 40%;
+    height: 500px;
+    margin: 1.9rem 0;
+    object-fit: fill;
+}
+
+.book-content a {
+    font-weight: bold;
+    color: black;
+    padding: 0 4px;
+    /* margin-bottom: 4rem; */
+}
+
+.book-content h1,
+.book-content h2,
+.book-content h3 {
+    font-family: 'Roboto', sans-serif;
+    margin: 2rem 0;
+}
+
+.book-content h2 {
+    font-size: 1.7rem;
+}
+
+.book-content blockquote {
+    border-left: 4px solid black;
+    padding-left: 1rem;
+    font-size: 1.2rem;
+}
+
+.book-content ul {
+    margin-bottom: 24px;
+}
+
+.book-content ul li {
+    margin: 10px 0;
+}
+
+.book-content .content {
+    width: 92%;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1000px) {
+    .fixed-book-options {
+        width: 100%;
+        margin: 0;
+        padding: 15px;
+        left: 0;
+    }
+    .top_detail_wrapper h5{
+        font-size: 2rem;
+    }
+    .top_detail_wrapper i {
+        font-size: 2rem;
+    }
+    .book-banner-img img {
+        width: 55%;
+        height: 400px;
+    }
+}

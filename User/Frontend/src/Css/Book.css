@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap&family=Hammersmith+One&family=Londrina+Solid:wght@900&display=swap');
+
+
+
+
+.book-card-wrapper {
+    position: relative;
+    min-height: 550px;
+    width: 1050px;
+    margin: 1.2rem auto;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}   
+
+.book-card {
+    width: 20%;
+    position: relative;
+    height: 320px;
+    border-radius: 6px;
+    margin: 2rem 1rem;
+    border: 1px solid rgba(121, 118, 118, 0.3);
+    box-shadow: 0 0 10px 5px rgba(88, 88, 88, 0.1);
+    background-color: white;
+    transition: 350ms ease all;
+}
+.search{
+    margin: 0 35%;
+}
+.search-form {
+    width: 100%;
+    position: relative;
+    height: 95%;
+    display: flex;
+    align-items: center;
+}
+.search-form input {
+    width: 100%;
+    height: 50%;
+    padding: 0.8rem;
+    border-radius: 6px;
+    outline: none;
+    border: none;
+    padding-left: 0.5rem;
+    background-color: rgba(105, 113, 116, 0.1);
+}
+
+.search-form button {
+    position: absolute;
+    border: none;
+    top: 25px;
+    right: 28px;
+}
+
+.search-form button.disBtn {
+    color: rgb(167, 164, 164);
+}
+
+.search-form button.searchBtn {
+    color: #0063a5 !important;
+}
+
+.search-form button i {
+    font-size: 1.4rem;
+}
+
+
+@media only screen and (max-width: 750px) {
+    .book-card-wrapper {
+        width: 100%;
+        justify-content: space-evenly;
+    }
+    .book-card {
+        width: 45%;
+    }
+}
+
+@media only screen and (max-width: 630px) {
+    .book-card {
+        width: 250px
+    }
+    .search{
+        margin: 0 5%;
+    }
+}
+
+
+.book-card a.book-link {
+    text-decoration: none;
+}
+
+.book-card img.book-image {
+    width: 100%;
+    height: 225px;
+    border-radius: 6px 6px 0 0;
+    object-fit:fill;
+}
+
+.book-card .book-content-wrapper {
+    padding: 14px;
+}
+
+.book-card h5.book-title {
+    font-size: 1rem;
+    text-align: center;
+    line-height: 30px;
+    height: 50px;
+    letter-spacing: 0.6px;
+    color: black;
+    padding: 10px 3px;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    word-wrap: break-word;
+    font-family: 'Hammersmith One', sans-serif;
+    font-family: 'Londrina Solid', cursive;
+}
+
+.book-card .book-text {
+    height: 55px;
+    overflow: hidden;
+    word-wrap: break-word;
+}
+
+.book-card .book-text,
+.book-card .book-text * {
+    color: rgb(92, 92, 92);
+    font-size: 1rem;
+    font-weight: normal;
+}

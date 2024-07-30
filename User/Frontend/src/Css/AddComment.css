@@ -1,0 +1,134 @@
+/* .Inclusive-comment-sidebar {
+    position: fixed;
+    right: 0;
+    top: 0;
+    height: 100vh;
+    width: 420px;
+    background-color: white;
+    z-index: 99;
+    padding: 1.4rem 0.8rem 0.5rem 1.4rem;
+    transition: 350ms ease right;
+    overflow-y: auto;
+} */
+
+/* .Inclusive-comment-sidebar.visible {
+    box-shadow: 0 0 60px 100000px rgba(0, 0, 0, 0.12);
+} */
+
+/* .Inclusive-comment-sidebar.hidden {
+    right: -420px;
+} */
+
+.sidebar-top-block {
+    display: flex;
+    /* font-size: small; */
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.6rem;
+}
+
+.sidebar-top-block h3 {
+    font-weight: bold;
+    font-size: 1.2rem;
+    font-family: 'Inter', sans-serif;
+}
+
+/* .sidebar-top-block svg {
+    color: rgb(66, 66, 66);
+    cursor: pointer;
+    margin-top: -8px;
+}
+
+.ıoAddIcon {
+    font-size: 2rem;
+    transform: rotate(45deg);
+    margin-left: 11px;
+} */
+
+.addComment-form {
+    margin-bottom: 2.5rem;
+    box-shadow: rgb(0 0 0 / 12%) 0px 2px 8px;
+    transition: padding-top 400ms ease 0s, padding-bottom 400ms ease 0s;
+    padding: 1rem;
+    position: relative;
+    border-radius: 5px;
+}
+
+
+
+.textarea-wrapper input{
+    width: 100%;
+    /* height: 100px; */
+    margin-bottom: 15px;
+    position: relative;
+    min-height: 40px;
+    cursor: text;
+    text-align: left;
+}
+
+.textarea-wrapper div#comment {
+    outline: 0;
+    padding: 5px;
+    overflow:visible;
+    min-height: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 0.01px;
+}
+
+.textarea-wrapper div#comment:empty:before {
+    /* content: attr(placeholder); */
+    color: #ccc;
+}
+
+
+
+.formBtn-wrapper button {
+    background-color: rgb(104, 199, 132);
+    border: none;
+    padding: 6px 10px;
+    margin: 15px 0;
+    border-radius: 3px;
+    letter-spacing: 0.5px;
+    color: white;
+    font-size: 0.9rem;
+    font-weight: 600;
+    font-family: 'Mukta', sans-serif;
+    transition: 350ms ease;
+}
+
+
+#content{
+    margin-left: 10px;
+    border-left: transparent;
+    border-right: transparent;
+    border-top: transparent;
+    border-bottom: 1px solid rgb(200, 46, 46);
+    width: 100px;
+    height: auto;
+    min-height: 10px;
+    }
+
+.StarRating-wrapper svg {
+    cursor: pointer;
+}
+
+.alert-success-message {
+    position: absolute;
+    top: 18px;
+    font-family: 'Inter';
+    right: 19px;
+    font-size: 0.8rem;
+    z-index: 5;
+    font-weight: bold;
+    color: rgb(87, 171, 87);
+    padding: 3px 6px;
+}
+
+.alert-error-message {
+    font-family: 'Inter';
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 11px;
+    color: rgb(147, 65, 72);
+    padding: 3px 6px;
+}

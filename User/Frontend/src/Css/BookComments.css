@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab&display=swap');
+.storyComments {
+    /* width: 100%; */
+    margin: 0 5% 0 5%;
+    position: relative;
+    height: auto;
+}
+
+.storyComments h5 {
+    font-family: 'Saira Condensed', sans-serif;
+    font-weight: bold;
+    padding-left: 0.6rem;
+    font-size: 1.2rem;
+    padding-bottom: 0.8rem;
+    border-bottom: rgba(218, 218, 218, 0.4) solid 1px;
+    margin-bottom: 2rem;
+}
+
+.comment-Wrapper {
+    position: relative;
+}
+
+.comment-item {
+    margin-bottom: 30px;
+    padding-bottom: 15px;
+    border-bottom: rgba(218, 218, 218, 0.4) solid 1px;
+}
+
+.comment-top-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+
+.comment-top-block section {
+    display: flex;
+}
+
+
+.comment-top-block section div {
+    display: flex;
+    flex-direction: column;
+}
+
+.comment-author-username {
+    font-size: 1rem;
+    font-family:  "Playwrite BE VLG", cursive;
+}
+
+.comment-createdAt {
+    color: rgb(93, 93, 93);
+    font-size: 0.8rem;
+}
+
+.comment-content {
+    padding-left: 4px;
+    height: auto;
+    font-size: 1.4rem;
+    margin: 1.2rem 0;
+    font-family : "Playwrite BE VLG", cursive;
+}
+/* */

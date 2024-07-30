@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Roboto+Slab:wght@800&display=swap&family=Roboto+Slab:wght@800&family=Saira+Condensed:wght@500&family=Staatliches&display=swap');
+body{
+    font-family: "Playwrite BE VLG", cursive;
+}
+header {
+    width: 100%;
+    height: 95px;
+    position: relative;
+}
+
+header .averager {
+    max-width: 1100px;
+    width: 95%;
+    height: 92px;
+    border-bottom: rgba(0, 0, 0, 0.2) solid 1px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    text-decoration: none;
+    color: black;
+    font-family: "Playwrite BE VLG", cursive;
+    color: #000000;
+}
+
+header .logo h5 {
+    font-size: 3ex;
+    font-weight: bold;
+    letter-spacing: 0.3px;
+    margin-top: 3px;
+}
+
+.header_options {
+    width: auto;
+    position: relative;
+}
+
+.header_options div.noAuth_options a,
+.header_options div.auth_options a.addbook-link {
+    text-decoration: none;
+    padding: 2px 1rem;
+    /* font-size: 1rem; */
+    color: rgb(77, 77, 77);
+}
+
+.addbook-link {
+    color: #0063a5 !important;
+    border: #0063a5 solid 2px;
+    padding: 4px 10px !important;
+    margin-right: 1rem;
+    border-radius: 4px;
+    margin-top: 7px;
+    font-size: medium;
+}
+.logout-btn {
+    border: rgb(161, 2, 2) solid 2px;
+    padding: 4px 10px !important;
+    border-radius: 4px;
+    margin-top: 7px;
+    background-color: white;
+    font-size: medium;
+    font-weight: 500;   
+    color: rgb(161, 2, 2);
+}
+.header_options div.noAuth_options a{
+    border: #0063a5 solid 2px;
+    border-radius: 4px;
+    margin-right: 1rem;
+    color: #0063a5 !important;
+}
+
+
+
+@media only screen and (max-width: 630px) {
+    header .averager {
+        padding: 0 1rem;
+    }
+    header .logo h5 {
+        font-size: 2ex;
+        font-weight: bold;
+        letter-spacing: 0.3px;
+        margin-top: 2px;
+    }
+    .header_options div.noAuth_options a{
+        border: #0063a5 solid 2px;
+        border-radius: 4px;
+        margin-right: 1rem;
+        color: #0063a5 !important;
+        /* font-size:small; */
+    }
+    .addbook-link {
+        font-size: small;
+    }
+    .logout-btn {
+        font-size: small;
+    }
+    
+}
+
+
+
+
+
+
+
+
