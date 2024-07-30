@@ -1,0 +1,19 @@
+{
+  "name": "mern-blog-v2-main",
+  "version": "1.0.0",
+  "description": "Engineering Book Review",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/maheshwagh001/Wad.git"
+  },
+  "author": "Mahesh Wagh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maheshwagh001/Wad/issues"
+  },
+  "homepage": "https://github.com/maheshwagh001/Wad#readme"
+}
